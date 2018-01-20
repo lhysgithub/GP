@@ -40,3 +40,19 @@
 
 [Python_Try](http://www.runoob.com/python/python-exceptions.html)
 
+提出疑问：
+
+1、一个5X5卷积核卷积操作32X32X3的图片，得到的输出究竟是28X28X3的图像还是28X28X1的图像？
+我认为是28X28X3否则会丢失颜色比例信息，当然合成一个值有的时候也可以保留比例信息，但是肯定会丢失一些信息！（具体如何做到要看keras源码）
+
+2、一个28X28X1的图像经过32个3X3卷积核，得到32个26X26X1的图像，那么在经过32个3X3卷积核是如何再次得到32个24X24X1的图像的？（具体如何做到要看keras源码）
+
+![MINIST针对LeNet网络架构的一副图片的前向传导过程](https://images0.cnblogs.com/blog/571288/201311/26095358-97bf2e756b3248ef838904916b0997ea.png)
+
+上图为：MINIST针对LeNet网络架构的一副图片的前向传导过程
+
+针对卷积层工作原理进行如下参考文献学习：
+
+[利用卷积神经网络识别CIFAR-10](https://limengweb.wordpress.com/2016/12/31/%E5%88%A9%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%AF%86%E5%88%ABcifar-10/)
+
+[[CNN中各层图像大小的计算](http://blog.csdn.net/gavin__zhou/article/details/50609325)](http://blog.csdn.net/gavin__zhou/article/details/50609325)
