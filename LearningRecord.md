@@ -30,8 +30,6 @@
 
 [Keras:基于Python的深度学习库](https://keras-cn.readthedocs.io/en/latest/)
 
-[Keras Documentation](https://keras.io/)
-
 [匿名函数](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868198760391f49337a8bd847978adea85f0a535591000)
 
 [生成器](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00138681965108490cb4c13182e472f8d87830f13be6e88000)
@@ -53,35 +51,8 @@
 
 上图为：MINIST针对LeNet网络架构的一副图片的前向传导过程
 
-对应以上两个问题，我查看了conv2d附近的源码（构建计算图的部分），并未找到答案，看来答案可能在运行计算图的部分。
-
 针对卷积层工作原理进行如下参考文献学习：
 
 [利用卷积神经网络识别CIFAR-10](https://limengweb.wordpress.com/2016/12/31/%E5%88%A9%E7%94%A8%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%AF%86%E5%88%ABcifar-10/)
 
 [[CNN中各层图像大小的计算](http://blog.csdn.net/gavin__zhou/article/details/50609325)](http://blog.csdn.net/gavin__zhou/article/details/50609325)
-
-[图像分割-知乎](https://www.zhihu.com/question/51567094)
-
-the rank of the convolution：卷积的阶，是指卷积核的阶。2阶就是图像的
-
-卷积核是对应像素点的，像素点通过XY坐标来确定，所以卷积核应该用2阶的。
-
-[Python继承](http://www.cnblogs.com/Joans/archive/2012/11/09/2757368.html)
-
-
-
-待看：
-
-[机器学习算法实践——K-Means算法与图像分割](http://blog.csdn.net/google19890102/article/details/52911835)
-
-[OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial/tree/master/ch27-%E5%88%86%E6%B0%B4%E5%B2%AD%E7%AE%97%E6%B3%95%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2)
-
-[Pycharm快捷键](http://blog.csdn.net/pipisorry/article/details/39909057)
-
-[StackoverflowAboutPython](https://taizilongxu.gitbooks.io/stackoverflow-about-python/content/index.html)
-
-多重继承时：查找顺序（MRO）、重复调用（钻石继承）问题
-
-
-
