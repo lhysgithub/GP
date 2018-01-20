@@ -69,7 +69,7 @@ the rank of the convolution：卷积的阶，是指卷积核的阶。2阶就是�
 
 [Python继承](http://www.cnblogs.com/Joans/archive/2012/11/09/2757368.html)
 
-
+github desktop 上传commit时所用账户和git选项中email有关！
 
 待看：
 
