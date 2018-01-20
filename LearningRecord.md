@@ -25,3 +25,18 @@
 确立了使用通过找到特征代表的方式可解释的选取修改的像素点
 
 确立了在搜索时引入置信因子的思想
+
+2018/01/20
+
+[Keras:基于Python的深度学习库](https://keras-cn.readthedocs.io/en/latest/)
+
+[匿名函数](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868198760391f49337a8bd847978adea85f0a535591000)
+
+[生成器](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00138681965108490cb4c13182e472f8d87830f13be6e88000)
+
+[正则化、经验风险、结构风险](https://www.zhihu.com/question/20924039)
+
+[TRACEBACK](http://blog.csdn.net/handsomekang/article/details/9373035)
+
+[Python_Try](http://www.runoob.com/python/python-exceptions.html)
+
