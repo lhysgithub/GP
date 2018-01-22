@@ -97,14 +97,55 @@ github desktop 上传commit时所用账户和git选项中email有关！
 1. [Markdown文档](http://wowubuntu.com/markdown/#p)
 2. [numpy.argmax](http://www.cnblogs.com/zhouyang209117/p/6512302.html)
 3. [MINIST数据集格式](https://www.jianshu.com/p/84f72791806f)
-4. ​
+4. [tf.reduce_sum](https://www.zhihu.com/question/51325408)
+5. [使用转换mnist数据库保存为bmp图片]http://blog.csdn.net/u010194274/article/details/50817999)
+6. [MNIST数据集转换为图像](http://blog.csdn.net/u012507022/article/details/51376626)
+7. [使用 tfdbg 调试 TensorFlow 模型](http://developers.googleblog.cn/2017/03/tfdbg-tensorflow.html)
+8. ​
 
-待看：
+
+提出问题:
+
+1. L2攻击中`self.tlab`内容存的是什么?(图片数量,分类种类),为什么目标分类还会有所有分类种类的概率向量,默认为											                       $(P_1,P_2,..,P_t,...,P_{10}),其中t为目标分类,P_t=1;P_i=0,i \ne t ?$
+
 
 
 
 学习心得:
+1. ​
 ```python
 #np.argmax(data.test_labels[start+i])
 #说明data.test_labels[start+i]每一个单项都是一个概率向量
 ```
+2. tensorflow因为引入了无限维度的张量,所以在计算的过程中产生了计算方向的问题,或者说实在哪个维度上进行计算,在第0维度上进行计算,就是对最外层进行计算.例如:
+
+   [[1,2,3],[4,5,6]]在第0维度上操作就是[[5,7,9]]如果不保留多余维度将得到[5,7,9]
+
+   [[1,2,3],[4,5,6]]在第1维度上操作就是[[6],[15]]如果不保留多余维度将得到[6,15]
+
+   例如在第K维度上操作,那么在第K维度上对应项相操作.
+
+3. 张量中shape用来存的是每一维内容的数量.
+
+   例如[[1,2,3],[4,5,6]]表示为张量的shape形式为(2,3)
+
+4. MINIST数据集数据格式:
+
+   文件的格式很简单，可以理解为一个很长的一维数组。
+
+   测试图像(rain-images-idx3-ubyte)与训练图像(train-images-idx3-ubyte)由5部分组成：
+
+| 32bits int(magic number) | 32bits int图像个数 | 32bits int图像高度28 | 32bits int图像宽度28 | 像素值（pixels） |
+| ------------------------ | -------------- | ---------------- | ---------------- | ----------- |
+|                          |                |                  |                  |             |
+
+​	测试标签(t10k-labels-idx1-ubyte)与训练标签(train-labels-idx1-ubyte)由3部分组成：
+
+| 32bits int(magic number) | 32bits int图像个数 | 标签（labels） |
+| ------------------------ | -------------- | ---------- |
+|                          |                |            |
+
+5. (图中红线为tanh,绿线为cosh,蓝线为sinh)
+
+![tanh](http://blog.mathteachersresource.com/wp-content/uploads/2015/10/hyperbolicheadfig.jpg)
+
