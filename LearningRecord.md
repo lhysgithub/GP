@@ -148,8 +148,17 @@ github desktop 上传commit时所用账户和git选项中email有关！
 5. (图中红线为tanh,绿线为cosh,蓝线为sinh)
 
 ![tanh](http://blog.mathteachersresource.com/wp-content/uploads/2015/10/hyperbolicheadfig.jpg)
+6. [python中`_`、`__`和`__xx__`的区别](http://www.cnblogs.com/coder2012/p/4423356.html)
 
-待看：
+  `_`表示私有，不是API不应该从外界调用(在外界能用_Method/Attribute调用)
+
+  `__`表示不能被子类重载（在外界中能用_Class__Method/Attribute调用）
+
+  `__xx__`表示该方法是被系统使用（可用来重载运算符，外界调用方法为Method（Object）而不是传统的Object.Method()）
+
+  这些都是为了实现面向对象编程的某些特性。
+
+  待看：
 
 - [1710.06081] Boosting Adversarial Attacks with Momentum（清华攻击）
 
@@ -157,5 +166,5 @@ github desktop 上传commit时所用账户和git选项中email有关！
   | --------- | ---------------------------------------- |
   | **机经：**   | **https://pan.baidu.com/s/1pKF8IEn**     |
   | **考位：**   | **https://pan.baidu.com/s/1jIN0Fg6**     |
-  | **模考软件：** | <https://pan.baidu.com/s/1nuTk9y5>[https://pan.baidu.com/s/1c4m4qkw托福高频词汇](https://pan.baidu.com/s/1c4m4qkw%E6%89%98%E7%A6%8F%E9%AB%98%E9%A2%91%E8%AF%8D%E6%B1%87) |
+  | **模考软件：** | **<https://pan.baidu.com/s/1nuTk9y5>[https://pan.baidu.com/s/1c4m4qkw托福高频词汇](https://pan.baidu.com/s/1c4m4qkw%E6%89%98%E7%A6%8F%E9%AB%98%E9%A2%91%E8%AF%8D%E6%B1%87)** |
   | **最新资料：** | **https://pan.baidu.com/s/1dE9N3HZ**     |
