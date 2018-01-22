@@ -85,3 +85,26 @@ github desktop 上传commit时所用账户和git选项中email有关！
 
 
 
+2018/01/22
+
+计划：
+
+1. 完成基础遗传算法的实现
+2. 完成一片托福试卷的练习
+
+实行：
+
+1. [Markdown文档](http://wowubuntu.com/markdown/#p)
+2. [numpy.argmax](http://www.cnblogs.com/zhouyang209117/p/6512302.html)
+3. [MINIST数据集格式](https://www.jianshu.com/p/84f72791806f)
+4. ​
+
+待看：
+
+
+
+学习心得:
+```python
+#np.argmax(data.test_labels[start+i])
+#说明data.test_labels[start+i]每一个单项都是一个概率向量
+```

@@ -1,0 +1,5 @@
+Server IP:10.108.15.176
+U:1120141827
+K:lhysserver
+interpreter:/home/1120141827/anaconda3/bin/python3
+Deployment path on server:/home/1120141827/ShareCode/
