@@ -98,7 +98,7 @@ github desktop 上传commit时所用账户和git选项中email有关！
 2. [numpy.argmax](http://www.cnblogs.com/zhouyang209117/p/6512302.html)
 3. [MINIST数据集格式](https://www.jianshu.com/p/84f72791806f)
 4. [tf.reduce_sum](https://www.zhihu.com/question/51325408)
-5. [使用转换mnist数据库保存为bmp图片]http://blog.csdn.net/u010194274/article/details/50817999)
+5. [使用转换mnist数据库保存为bmp图片](http://blog.csdn.net/u010194274/article/details/50817999)
 6. [MNIST数据集转换为图像](http://blog.csdn.net/u012507022/article/details/51376626)
 7. [使用 tfdbg 调试 TensorFlow 模型](http://developers.googleblog.cn/2017/03/tfdbg-tensorflow.html)
 8. ​
@@ -149,3 +149,13 @@ github desktop 上传commit时所用账户和git选项中email有关！
 
 ![tanh](http://blog.mathteachersresource.com/wp-content/uploads/2015/10/hyperbolicheadfig.jpg)
 
+待看：
+
+- [1710.06081] Boosting Adversarial Attacks with Momentum（清华攻击）
+
+  | **TOEFL** | （点击链接即可下载）                               |
+  | --------- | ---------------------------------------- |
+  | **机经：**   | **https://pan.baidu.com/s/1pKF8IEn**     |
+  | **考位：**   | **https://pan.baidu.com/s/1jIN0Fg6**     |
+  | **模考软件：** | <https://pan.baidu.com/s/1nuTk9y5>[https://pan.baidu.com/s/1c4m4qkw托福高频词汇](https://pan.baidu.com/s/1c4m4qkw%E6%89%98%E7%A6%8F%E9%AB%98%E9%A2%91%E8%AF%8D%E6%B1%87) |
+  | **最新资料：** | **https://pan.baidu.com/s/1dE9N3HZ**     |
