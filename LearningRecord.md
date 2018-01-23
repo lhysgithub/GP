@@ -201,4 +201,27 @@ github desktop 上传commit时所用账户和git选项中email有关！
 
 
 
-2018/01/22 ​的时候你就没能实现计划，今天，拼尽全力去实现吧。
+2018/01/22 的时候你就没能实现计划，今天，拼尽全力去实现吧。
+
+千万不能磨洋工！
+
+针对遗传攻击算法：我们为了顺应时代的潮流，我们打算使用cleverhans库作为基础支撑库，即，我们将为cleverhans增加一种新的攻击方法，即遗传攻击！
+
+由于一开始想要使用CW攻击的图像分类器生成、对抗样本标签生成等非攻击方法部分的代码，所以虽然对于这方面算法有了比较清晰的了解，但是，现在又要去大概了解一下cleverhans库中这些非攻击方法部分的代码。任务艰巨！
+
+参照Attacks.class CarliniWagnerL2(Attack):进行GAAttack的编写。
+
+提出疑问：
+
+1. 为什么要逆双曲正弦？
+2. Tensorflow的计算图建立起来后是怎么运行的？！
+
+学习过程：
+
+1. [numpy.ones](http://python.usyiyi.cn/documents/NumPy_v111/reference/generated/numpy.ones.html)
+2. [Python enumerate() 函数](http://www.runoob.com/python/python-func-enumerate.html)
+3. [numpy.arctanh](http://python.usyiyi.cn/documents/NumPy_v111/reference/generated/numpy.arctanh.html)
+4. [Python_zip() 函数](http://www.runoob.com/python/python-func-zip.html)
+5. CWAttack中超参C为通关过二分法对于每一个图片自行学习的。
+6. 18：31看完CW攻击源码！完全！
+7. 明天进行GA算法的实现！
