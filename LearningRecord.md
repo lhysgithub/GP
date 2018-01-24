@@ -219,9 +219,48 @@ github desktop 上传commit时所用账户和git选项中email有关！
 学习过程：
 
 1. [numpy.ones](http://python.usyiyi.cn/documents/NumPy_v111/reference/generated/numpy.ones.html)
+
 2. [Python enumerate() 函数](http://www.runoob.com/python/python-func-enumerate.html)
+
 3. [numpy.arctanh](http://python.usyiyi.cn/documents/NumPy_v111/reference/generated/numpy.arctanh.html)
+
 4. [Python_zip() 函数](http://www.runoob.com/python/python-func-zip.html)
+
 5. CWAttack中超参C为通关过二分法对于每一个图片自行学习的。
+
 6. 18：31看完CW攻击源码！完全！
+
 7. 明天进行GA算法的实现！
+
+
+###### 2018/01/24
+
+今日计划：
+
+1. GA算法完成30%
+2. 托福3小时
+
+
+
+今日感受：
+
+1. 一心二用是不好的（在你精神力没有那么强大的时候），只会使得两件事情都干不好！（所以别再边玩儿边学了！）
+2. 中午一定要睡觉，不然学习玩耍什么的都不会很舒服。
+
+
+
+学习心得：
+
+1. tensorflow并非并行计算！
+2. [numpy.clip()](http://blog.csdn.net/Light_blue_love/article/details/41897799)
+3. [python.set()](http://blog.csdn.net/business122/article/details/7541486)
+4. ​
+
+GA改造工程：
+
+1. def show(img) 可以将本函数改造成将数据存储在图片文件中！！！
+2. 在计算图中加入GA算法，我需要加入一个新的optimizer
+
+今日进度：
+
+1. 不再使用cleverhans库作为基础代码
